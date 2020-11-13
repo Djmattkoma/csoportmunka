@@ -1,7 +1,3 @@
-import AI
-import player
-import backed
+from AIvsPlayer import game1
 
-AI.gongol()
-#print(AI.gongol())
-player.jaetekos()
+game1.aivsplayer()
