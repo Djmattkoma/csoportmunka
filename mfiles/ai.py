@@ -1,6 +1,7 @@
-#ide jönnek a gép dolgai
 import random
 import time
+
+keze = []
 
 fegyver = {
     0: "kő",
@@ -16,8 +17,6 @@ def gongol():
     print("tejösz")
 
 def tipel():
-    tip = random.randint(0, 2)
-    return fegyver.get(tip, "kő")
-
-
-
+    aitip = random.randint(0, 2)
+    return  fegyver.get(aitip, "kő")
+    keze.append(aitip)
