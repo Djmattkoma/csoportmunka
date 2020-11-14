@@ -14,14 +14,14 @@ def jatokosmegadas():
 
 def ketjatekos():
 
-    p1kez = 0
+
     p1kez = input("válasz: kő papír olló: ")
-    if gep == 1:
-        gepkez += "Kő"
-    if gep == 2:
-        gepkez += "Papír"
-    if gep == 3:
-        gepkez += "Olló"
+    if p1kez == 1:
+        p1kez += "Kő"
+    if p1kez == 2:
+        p1kez += "Papír"
+    if p1kez == 3:
+        p1kez += "Olló"
     p2kez = 0
 
 
